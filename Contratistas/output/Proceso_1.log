@@ -1,0 +1,55 @@
+2026-02-25T10:30:01.605-05:00  INFO 31176 --- [Contratistas] [restartedMain] c.e.C.ContratistasApplication            : Starting ContratistasApplication using Java 20 with PID 31176 (C:\Users\palez\Documents\GitHub\Ejercicio-Practico-Assertiva\Contratistas\target\classes started by palez in C:\Users\palez\Documents\GitHub\Ejercicio-Practico-Assertiva\Contratistas)
+2026-02-25T10:30:01.608-05:00  INFO 31176 --- [Contratistas] [restartedMain] c.e.C.ContratistasApplication            : No active profile set, falling back to 1 default profile: "default"
+2026-02-25T10:30:01.645-05:00  INFO 31176 --- [Contratistas] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-02-25T10:30:01.645-05:00  INFO 31176 --- [Contratistas] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-02-25T10:30:01.655-05:00  INFO 31176 --- [Contratistas] [restartedMain] .s.b.d.c.l.DockerComposeLifecycleManager : Using Docker Compose file C:\Users\palez\Documents\GitHub\Ejercicio-Practico-Assertiva\Contratistas\compose.yaml
+2026-02-25T10:30:01.739-05:00 ERROR 31176 --- [Contratistas] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.boot.docker.compose.core.DockerProcessStartException: Unable to start docker process. Is docker correctly installed?
+	at org.springframework.boot.docker.compose.core.DockerCli$DockerCommands.getDockerCommand(DockerCli.java:152) ~[spring-boot-docker-compose-4.0.3.jar:4.0.3]
+	at org.springframework.boot.docker.compose.core.DockerCli$DockerCommands.<init>(DockerCli.java:141) ~[spring-boot-docker-compose-4.0.3.jar:4.0.3]
+	at org.springframework.boot.docker.compose.core.DockerCli.lambda$new$0(DockerCli.java:67) ~[spring-boot-docker-compose-4.0.3.jar:4.0.3]
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1228) ~[na:na]
+	at org.springframework.boot.docker.compose.core.DockerCli.<init>(DockerCli.java:66) ~[spring-boot-docker-compose-4.0.3.jar:4.0.3]
+	at org.springframework.boot.docker.compose.core.DockerCompose.get(DockerCompose.java:147) ~[spring-boot-docker-compose-4.0.3.jar:4.0.3]
+	at org.springframework.boot.docker.compose.lifecycle.DockerComposeLifecycleManager.getDockerCompose(DockerComposeLifecycleManager.java:166) ~[spring-boot-docker-compose-4.0.3.jar:4.0.3]
+	at org.springframework.boot.docker.compose.lifecycle.DockerComposeLifecycleManager.start(DockerComposeLifecycleManager.java:114) ~[spring-boot-docker-compose-4.0.3.jar:4.0.3]
+	at org.springframework.boot.docker.compose.lifecycle.DockerComposeListener.onApplicationEvent(DockerComposeListener.java:53) ~[spring-boot-docker-compose-4.0.3.jar:4.0.3]
+	at org.springframework.boot.docker.compose.lifecycle.DockerComposeListener.onApplicationEvent(DockerComposeListener.java:35) ~[spring-boot-docker-compose-4.0.3.jar:4.0.3]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:180) ~[spring-context-7.0.5.jar:7.0.5]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:173) ~[spring-context-7.0.5.jar:7.0.5]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:151) ~[spring-context-7.0.5.jar:7.0.5]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:133) ~[spring-context-7.0.5.jar:7.0.5]
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:137) ~[spring-boot-4.0.3.jar:4.0.3]
+	at org.springframework.boot.context.event.EventPublishingRunListener.contextLoaded(EventPublishingRunListener.java:99) ~[spring-boot-4.0.3.jar:4.0.3]
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$contextLoaded$0(SpringApplicationRunListeners.java:74) ~[spring-boot-4.0.3.jar:4.0.3]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:123) ~[spring-boot-4.0.3.jar:4.0.3]
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117) ~[spring-boot-4.0.3.jar:4.0.3]
+	at org.springframework.boot.SpringApplicationRunListeners.contextLoaded(SpringApplicationRunListeners.java:74) ~[spring-boot-4.0.3.jar:4.0.3]
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:418) ~[spring-boot-4.0.3.jar:4.0.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:320) ~[spring-boot-4.0.3.jar:4.0.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.0.3.jar:4.0.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.0.3.jar:4.0.3]
+	at com.ejercicio.Contratistas.ContratistasApplication.main(ContratistasApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.0.3.jar:4.0.3]
+Caused by: org.springframework.boot.docker.compose.core.ProcessStartException: Unable to start command docker version --format {{.Client.Version}}
+	at org.springframework.boot.docker.compose.core.ProcessRunner.startProcess(ProcessRunner.java:117) ~[spring-boot-docker-compose-4.0.3.jar:4.0.3]
+	at org.springframework.boot.docker.compose.core.ProcessRunner.run(ProcessRunner.java:89) ~[spring-boot-docker-compose-4.0.3.jar:4.0.3]
+	at org.springframework.boot.docker.compose.core.ProcessRunner.run(ProcessRunner.java:76) ~[spring-boot-docker-compose-4.0.3.jar:4.0.3]
+	at org.springframework.boot.docker.compose.core.DockerCli$DockerCommands.getDockerCommand(DockerCli.java:147) ~[spring-boot-docker-compose-4.0.3.jar:4.0.3]
+	... 28 common frames omitted
+Caused by: java.io.IOException: Cannot run program "docker": CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1140) ~[na:na]
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1074) ~[na:na]
+	at org.springframework.boot.docker.compose.core.ProcessRunner.startProcess(ProcessRunner.java:107) ~[spring-boot-docker-compose-4.0.3.jar:4.0.3]
+	... 31 common frames omitted
+Caused by: java.io.IOException: CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+	at java.base/java.lang.ProcessImpl.create(Native Method) ~[na:na]
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:500) ~[na:na]
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159) ~[na:na]
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1111) ~[na:na]
+	... 33 common frames omitted
+
