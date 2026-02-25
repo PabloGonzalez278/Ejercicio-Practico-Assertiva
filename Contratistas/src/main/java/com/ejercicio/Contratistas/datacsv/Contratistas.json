@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "nombre": "Pablo Gonzalez",
+    "telefono": "3212804415",
+    "email": "pablogonzalez@gmail.com",
+    "Direccion": {"Ciudad": "Bogota"},
+    "Empresa": {"Nombre": "Assertiva"}
+  },
+  {
+    "id": 2,
+    "nombre": "Juan Gonzalez",
+    "telefono": "3145826145",
+    "email": "juangonzalez@gmail.com",
+    "Direccion": {"Ciudad": "Palmira"},
+    "Empresa": {"Nombre": "Texaco"}
+  },
+  {
+    "id": 3,
+    "nombre": "Camilo Gonzalez",
+    "telefono": "3208647596",
+    "email": "camilogonzalez@gmail.com",
+    "Direccion": {"Ciudad": "Cali"},
+    "Empresa": {"Nombre": "Terpel"}
+  },
+  {
+    "id": 4,
+    "nombre": "Anamaria Gonzalez",
+    "telefono": "3137681294",
+    "email": "anagonzalez@gmail.com",
+    "Direccion": {"Ciudad": "Medellin"},
+    "Empresa": {"Nombre": "Primax"}
+  },
+  {
+    "id": 5,
+    "nombre": "Javier Gonzalez",
+    "telefono": "3194675287",
+    "email": "javiergonzalez@gmail.com",
+    "Direccion": {"Ciudad": "Cartagena"},
+    "Empresa": {"Nombre": "Texaco"}
+  }
+]
