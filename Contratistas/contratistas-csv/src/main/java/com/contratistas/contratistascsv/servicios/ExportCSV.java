@@ -27,13 +27,10 @@ public class ExportCSV {
                             + csvfila(fila.Email())
                             + csvfila(fila.Empresa())+ ","
                             + csvfila(fila.Ciudad())+ ","
-                            + csvfila(fila.Email_corporativo())+ ","
-
-                )
+                            + csvfila(fila.Email_corporativo()));
+                    writer.newLine();
+                }
             }
-
-            }
-
         }
     private String csvfila(String valor){
             String safe = valor == null ? "": valor.trim();
