@@ -3,7 +3,7 @@ package com.contratistas.contratistascsv.runner;
 import com.contratistas.contratistascsv.config.AppProperties;
 import com.contratistas.contratistascsv.model.CSVContratistas;
 import com.contratistas.contratistascsv.model.Contratistas;
-import com.contratistas.contratistascsv.servicios.EmpresaTransformer;
+import com.contratistas.contratistascsv.servicios.ContratistaTransformer;
 import com.contratistas.contratistascsv.servicios.ExportCSV;
 import com.contratistas.contratistascsv.servicios.UsuarioService;
 import org.slf4j.Logger;
@@ -18,13 +18,13 @@ import java.util.List;
 public class Proceso implements CommandLineRunner {
     private static final Logger log = LoggerFactory.getLogger(Proceso.class);
     private final UsuarioService usuarioService;
-    private final EmpresaTransformer empresaTransformer;
+    private final ContratistaTransformer contratistaTransformer;
     private final ExportCSV exportCSV;
     private final AppProperties appProperties;
 
-    public Proceso(UsuarioService usuarioService, EmpresaTransformer empresaTransformer, ExportCSV exportCSV, AppProperties appProperties ) {
+    public Proceso(UsuarioService usuarioService, ContratistaTransformer contratistaTransformer, ExportCSV exportCSV, AppProperties appProperties ) {
         this.usuarioService = usuarioService;
-        this.empresaTransformer = empresaTransformer;
+        this.contratistaTransformer = contratistaTransformer;
         this.exportCSV = exportCSV;
         this.appProperties = appProperties;
     }
@@ -34,7 +34,7 @@ public class Proceso implements CommandLineRunner {
         try {
             List<Contratistas> usuarios = usuarioService.getUsuarios();
             log.info("Total de registro obtenidos desde el endpoint: {}", usuarios.size());
-            List<CSVContratistas> filas = empresaTransformer.transform(usuarios,appProperties.domain());
+            List<CSVContratistas> filas = contratistaTransformer.transform(usuarios,appProperties.domain());
             log.info("Total de registros procesados correctamente: {}", filas.size());
 
            exportCSV.export(filas, Path.of(appProperties.outputCsv()));
