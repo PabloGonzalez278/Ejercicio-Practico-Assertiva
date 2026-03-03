@@ -1,23 +1,40 @@
 package com.contratistas.contratistascsv.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-    public record Contratistas(
-            String Nombre,
-            String Correo,
-            String Telefono,
-            Direccion direccion,
-            Empresa empresa
+public record Contratistas(
+
+        @JsonProperty("name")
+        String nombre,
+
+        @JsonProperty("email")
+        String correo,
+
+        @JsonProperty("phone")
+        String telefono,
+
+        @JsonProperty("address")
+        Direccion direccion,
+
+        @JsonProperty("company")
+        Empresa empresa
+
+) {
+
+    @JsonIgnoreProperties(ignoreUnknown = true)
+    public record Direccion(
+            @JsonProperty("city")
+            String ciudad
     ) {
-        @JsonIgnoreProperties(ignoreUnknown = true)
-        public record Direccion(String ciudad) {
-
-        }
-
-        @JsonIgnoreProperties(ignoreUnknown = true)
-        public record Empresa(String nombre) {
-
-        }
     }
+
+    @JsonIgnoreProperties(ignoreUnknown = true)
+    public record Empresa(
+            @JsonProperty("name")
+            String nombre
+    ) {
+    }
+}
 

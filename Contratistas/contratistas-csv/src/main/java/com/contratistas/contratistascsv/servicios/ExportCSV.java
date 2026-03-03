@@ -22,12 +22,12 @@ public class ExportCSV {
             writer.write("Nombre Completo, Telefono,Correo Electronico,Empresa,Ciudad,Correo Corportativo generado");
             writer.newLine();
             for(CSVContratistas fila : filas){
-                    writer.write(csvfila(fila.Nombre())+ ","
-                            + csvfila(fila.Telefono())+ ","
-                            + csvfila(fila.Email())
-                            + csvfila(fila.Empresa())+ ","
-                            + csvfila(fila.Ciudad())+ ","
-                            + csvfila(fila.Email_corporativo()));
+                    writer.write(csvfila(fila.nombre())+ ","
+                            + csvfila(fila.telefono())+ ","
+                            + csvfila(fila.email())
+                            + csvfila(fila.empresa())+ ","
+                            + csvfila(fila.ciudad())+ ","
+                            + csvfila(fila.email_Corporativo()));
                     writer.newLine();
                 }
             }

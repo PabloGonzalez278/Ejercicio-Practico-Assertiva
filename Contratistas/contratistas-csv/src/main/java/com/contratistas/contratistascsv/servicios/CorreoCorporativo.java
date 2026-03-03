@@ -8,12 +8,12 @@ import java.util.Map;
 public class CorreoCorporativo {
     private final Map<String, Integer> Contadorusuario = new HashMap<>();
 
-    public String Siguiente_Correo_Corporativo(String Nombre, String Dominio) {
-        String usuarioBase = UsuarioCorporativo(Nombre);
+    public String Siguiente_Correo_Corporativo(String nombre, String dominio) {
+        String usuarioBase = UsuarioCorporativo(nombre);
         int contador = Contadorusuario.getOrDefault(usuarioBase, 0);
         Contadorusuario.put(usuarioBase, contador + 1);
         String usuario = contador == 0 ? usuarioBase: usuarioBase + contador;
-        return usuario + "@" + Dominio;
+        return usuario + "@" + dominio;
     }
 
     public String UsuarioCorporativo(String Nombre) {
