@@ -1,54 +1,142 @@
-2026-03-02T20:00:14.198-05:00  INFO 8068 --- [contratistas-csv] [restartedMain] c.c.c.ContratistasCsvApplication         : Starting ContratistasCsvApplication using Java 21.0.6 with PID 8068 (C:\Users\palez\Documents\GitHub\Ejercicio-Practico-Assertiva\Contratistas\contratistas-csv\target\classes started by palez in C:\Users\palez\Documents\GitHub\Ejercicio-Practico-Assertiva\Contratistas\contratistas-csv)
-2026-03-02T20:00:14.199-05:00  INFO 8068 --- [contratistas-csv] [restartedMain] c.c.c.ContratistasCsvApplication         : No active profile set, falling back to 1 default profile: "default"
-2026-03-02T20:00:14.227-05:00  INFO 8068 --- [contratistas-csv] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-03-02T20:00:14.227-05:00  INFO 8068 --- [contratistas-csv] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-03-02T20:00:14.784-05:00  INFO 8068 --- [contratistas-csv] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-03-02T20:00:14.794-05:00  INFO 8068 --- [contratistas-csv] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-03-02T20:00:14.794-05:00  INFO 8068 --- [contratistas-csv] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
-2026-03-02T20:00:14.828-05:00  INFO 8068 --- [contratistas-csv] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-03-02T20:00:14.828-05:00  INFO 8068 --- [contratistas-csv] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 601 ms
-2026-03-02T20:00:15.046-05:00  INFO 8068 --- [contratistas-csv] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2026-03-02T20:00:15.066-05:00  INFO 8068 --- [contratistas-csv] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
-2026-03-02T20:00:15.071-05:00  INFO 8068 --- [contratistas-csv] [restartedMain] c.c.c.ContratistasCsvApplication         : Started ContratistasCsvApplication in 1.137 seconds (process running for 1.567)
-2026-03-02T20:00:15.073-05:00  INFO 8068 --- [contratistas-csv] [restartedMain] c.c.contratistascsv.runner.Proceso       : Inicio Proceso de generación de contratistas
-2026-03-02T20:00:15.073-05:00  INFO 8068 --- [contratistas-csv] [restartedMain] c.c.c.servicios.UsuarioService           : Consulta de endpoint remoto iniciado: https://jsonplaceholder.typicode.com/users
-2026-03-02T20:00:15.555-05:00  INFO 8068 --- [contratistas-csv] [restartedMain] c.c.contratistascsv.runner.Proceso       : Total de registro obtenidos desde el endpoint: 10
-2026-03-02T20:00:15.557-05:00  INFO 8068 --- [contratistas-csv] [restartedMain] c.c.contratistascsv.runner.Proceso       : Total de registros procesados correctamente: 10
-2026-03-02T20:00:15.559-05:00  INFO 8068 --- [contratistas-csv] [restartedMain] c.c.contratistascsv.runner.Proceso       : Confirmación de generacion de archivo CSV: resultado/Contratistas.csv
-2026-03-02T20:00:15.559-05:00  INFO 8068 --- [contratistas-csv] [restartedMain] c.c.contratistascsv.runner.Proceso       : Proceso Finalizado correctamente
-2026-03-02T20:09:17.349-05:00  INFO 31072 --- [contratistas-csv] [restartedMain] c.c.c.ContratistasCsvApplication         : Starting ContratistasCsvApplication using Java 21.0.6 with PID 31072 (C:\Users\palez\Documents\GitHub\Ejercicio-Practico-Assertiva\Contratistas\contratistas-csv\target\classes started by palez in C:\Users\palez\Documents\GitHub\Ejercicio-Practico-Assertiva\Contratistas\contratistas-csv)
-2026-03-02T20:09:17.350-05:00  INFO 31072 --- [contratistas-csv] [restartedMain] c.c.c.ContratistasCsvApplication         : No active profile set, falling back to 1 default profile: "default"
-2026-03-02T20:09:17.381-05:00  INFO 31072 --- [contratistas-csv] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-03-02T20:09:17.381-05:00  INFO 31072 --- [contratistas-csv] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-03-02T20:09:17.927-05:00  INFO 31072 --- [contratistas-csv] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-03-02T20:09:17.935-05:00  INFO 31072 --- [contratistas-csv] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-03-02T20:09:17.935-05:00  INFO 31072 --- [contratistas-csv] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
-2026-03-02T20:09:18.011-05:00  INFO 31072 --- [contratistas-csv] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-03-02T20:09:18.011-05:00  INFO 31072 --- [contratistas-csv] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 630 ms
-2026-03-02T20:09:18.222-05:00  INFO 31072 --- [contratistas-csv] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2026-03-02T20:09:18.242-05:00  INFO 31072 --- [contratistas-csv] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
-2026-03-02T20:09:18.246-05:00  INFO 31072 --- [contratistas-csv] [restartedMain] c.c.c.ContratistasCsvApplication         : Started ContratistasCsvApplication in 1.146 seconds (process running for 1.554)
-2026-03-02T20:09:18.248-05:00  INFO 31072 --- [contratistas-csv] [restartedMain] c.c.contratistascsv.runner.Proceso       : Inicio Proceso de generación de contratistas
-2026-03-02T20:09:18.248-05:00  INFO 31072 --- [contratistas-csv] [restartedMain] c.c.c.servicios.UsuarioService           : Consulta de endpoint remoto iniciado: https://jsonplaceholder.typicode.com/users
-2026-03-02T20:09:18.739-05:00  INFO 31072 --- [contratistas-csv] [restartedMain] c.c.contratistascsv.runner.Proceso       : Total de registro obtenidos desde el endpoint: 10
-2026-03-02T20:09:18.741-05:00  INFO 31072 --- [contratistas-csv] [restartedMain] c.c.contratistascsv.runner.Proceso       : Total de registros procesados correctamente: 10
-2026-03-02T20:09:18.743-05:00  INFO 31072 --- [contratistas-csv] [restartedMain] c.c.contratistascsv.runner.Proceso       : Confirmación de generacion de archivo CSV: resultado/Contratistas.csv
-2026-03-02T20:09:18.743-05:00  INFO 31072 --- [contratistas-csv] [restartedMain] c.c.contratistascsv.runner.Proceso       : Proceso Finalizado correctamente
-2026-03-02T20:21:38.005-05:00  INFO 15076 --- [contratistas-csv] [main] c.c.c.ContratistasCsvApplicationTests    : Starting ContratistasCsvApplicationTests using Java 21.0.6 with PID 15076 (started by palez in C:\Users\palez\Documents\GitHub\Ejercicio-Practico-Assertiva\Contratistas\contratistas-csv)
-2026-03-02T20:21:38.007-05:00  INFO 15076 --- [contratistas-csv] [main] c.c.c.ContratistasCsvApplicationTests    : No active profile set, falling back to 1 default profile: "default"
-2026-03-02T20:21:38.762-05:00  INFO 15076 --- [contratistas-csv] [main] c.c.c.ContratistasCsvApplicationTests    : Started ContratistasCsvApplicationTests in 0.963 seconds (process running for 1.711)
-2026-03-02T20:21:38.764-05:00  INFO 15076 --- [contratistas-csv] [main] c.c.contratistascsv.runner.Proceso       : Inicio Proceso de generación de contratistas
-2026-03-02T20:21:38.764-05:00  INFO 15076 --- [contratistas-csv] [main] c.c.c.servicios.UsuarioService           : Consulta de endpoint remoto iniciado: https://jsonplaceholder.typicode.com/users
-2026-03-02T20:21:39.348-05:00  INFO 15076 --- [contratistas-csv] [main] c.c.contratistascsv.runner.Proceso       : Total de registro obtenidos desde el endpoint: 10
-2026-03-02T20:21:39.350-05:00  INFO 15076 --- [contratistas-csv] [main] c.c.contratistascsv.runner.Proceso       : Total de registros procesados correctamente: 10
-2026-03-02T20:21:39.354-05:00  INFO 15076 --- [contratistas-csv] [main] c.c.contratistascsv.runner.Proceso       : Confirmación de generacion de archivo CSV: resultado/Contratistas.csv
-2026-03-02T20:21:39.354-05:00  INFO 15076 --- [contratistas-csv] [main] c.c.contratistascsv.runner.Proceso       : Proceso Finalizado correctamente
-2026-03-02T20:23:42.260-05:00  INFO 25408 --- [contratistas-csv] [main] c.c.c.ContratistasCsvApplicationTests    : Starting ContratistasCsvApplicationTests using Java 21.0.6 with PID 25408 (started by palez in C:\Users\palez\Documents\GitHub\Ejercicio-Practico-Assertiva\Contratistas\contratistas-csv)
-2026-03-02T20:23:42.261-05:00  INFO 25408 --- [contratistas-csv] [main] c.c.c.ContratistasCsvApplicationTests    : No active profile set, falling back to 1 default profile: "default"
-2026-03-02T20:23:43.022-05:00  INFO 25408 --- [contratistas-csv] [main] c.c.c.ContratistasCsvApplicationTests    : Started ContratistasCsvApplicationTests in 0.967 seconds (process running for 1.612)
-2026-03-02T20:23:43.025-05:00  INFO 25408 --- [contratistas-csv] [main] c.c.contratistascsv.runner.Proceso       : Inicio Proceso de generación de contratistas
-2026-03-02T20:23:43.025-05:00  INFO 25408 --- [contratistas-csv] [main] c.c.c.servicios.UsuarioService           : Consulta de endpoint remoto iniciado: https://jsonplaceholder.typicode.com/users
-2026-03-02T20:23:43.533-05:00  INFO 25408 --- [contratistas-csv] [main] c.c.contratistascsv.runner.Proceso       : Total de registro obtenidos desde el endpoint: 10
-2026-03-02T20:23:43.535-05:00  INFO 25408 --- [contratistas-csv] [main] c.c.contratistascsv.runner.Proceso       : Total de registros procesados correctamente: 10
-2026-03-02T20:23:43.540-05:00  INFO 25408 --- [contratistas-csv] [main] c.c.contratistascsv.runner.Proceso       : Confirmación de generacion de archivo CSV: resultado/Contratistas.csv
-2026-03-02T20:23:43.540-05:00  INFO 25408 --- [contratistas-csv] [main] c.c.contratistascsv.runner.Proceso       : Proceso Finalizado correctamente
+2026-03-03T13:17:39.535-05:00  INFO 12604 --- [contratistas-csv] [restartedMain] c.c.c.ContratistasCsvApplication         : Starting ContratistasCsvApplication using Java 21.0.6 with PID 12604 (C:\Users\palez\Documents\GitHub\Ejercicio-Practico-Assertiva\Contratistas\contratistas-csv\target\classes started by palez in C:\Users\palez\Documents\GitHub\Ejercicio-Practico-Assertiva\Contratistas\contratistas-csv)
+2026-03-03T13:17:39.543-05:00  INFO 12604 --- [contratistas-csv] [restartedMain] c.c.c.ContratistasCsvApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-03-03T13:17:39.576-05:00  INFO 12604 --- [contratistas-csv] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-03T13:17:39.577-05:00  INFO 12604 --- [contratistas-csv] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-03T13:17:40.282-05:00  INFO 12604 --- [contratistas-csv] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-03-03T13:17:40.292-05:00  INFO 12604 --- [contratistas-csv] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-03T13:17:40.293-05:00  INFO 12604 --- [contratistas-csv] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-03-03T13:17:40.327-05:00  INFO 12604 --- [contratistas-csv] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-03T13:17:40.327-05:00  INFO 12604 --- [contratistas-csv] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 750 ms
+2026-03-03T13:17:40.593-05:00  INFO 12604 --- [contratistas-csv] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-03-03T13:17:40.617-05:00  INFO 12604 --- [contratistas-csv] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2026-03-03T13:17:40.622-05:00  INFO 12604 --- [contratistas-csv] [restartedMain] c.c.c.ContratistasCsvApplication         : Started ContratistasCsvApplication in 1.419 seconds (process running for 2.968)
+2026-03-03T13:17:40.623-05:00  INFO 12604 --- [contratistas-csv] [restartedMain] c.c.contratistascsv.runner.Proceso       : Inicio Proceso de generación de contratistas
+2026-03-03T13:17:40.624-05:00  INFO 12604 --- [contratistas-csv] [restartedMain] c.c.c.servicios.UsuarioService           : Consulta de endpoint remoto iniciado: https://jsonplaceholder.typicode.com/users
+2026-03-03T13:17:41.306-05:00  INFO 12604 --- [contratistas-csv] [restartedMain] c.c.contratistascsv.runner.Proceso       : Total de registro obtenidos desde el endpoint: 10
+2026-03-03T13:17:41.309-05:00  INFO 12604 --- [contratistas-csv] [restartedMain] c.c.contratistascsv.runner.Proceso       : Total de registros procesados correctamente: 10
+2026-03-03T13:17:41.311-05:00  INFO 12604 --- [contratistas-csv] [restartedMain] c.c.contratistascsv.runner.Proceso       : Confirmación de generacion de archivo CSV: resultado/Contratistas.csv
+2026-03-03T13:17:41.311-05:00  INFO 12604 --- [contratistas-csv] [restartedMain] c.c.contratistascsv.runner.Proceso       : Proceso Finalizado correctamente
+2026-03-03T13:29:47.955-05:00  INFO 12572 --- [contratistas-csv] [restartedMain] c.c.c.ContratistasCsvApplication         : Starting ContratistasCsvApplication using Java 21.0.6 with PID 12572 (C:\Users\palez\Documents\GitHub\Ejercicio-Practico-Assertiva\Contratistas\contratistas-csv\target\classes started by palez in C:\Users\palez\Documents\GitHub\Ejercicio-Practico-Assertiva\Contratistas\contratistas-csv)
+2026-03-03T13:29:47.957-05:00  INFO 12572 --- [contratistas-csv] [restartedMain] c.c.c.ContratistasCsvApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-03-03T13:29:47.989-05:00  INFO 12572 --- [contratistas-csv] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-03T13:29:47.989-05:00  INFO 12572 --- [contratistas-csv] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-03T13:29:48.557-05:00  INFO 12572 --- [contratistas-csv] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-03-03T13:29:48.566-05:00  INFO 12572 --- [contratistas-csv] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-03T13:29:48.566-05:00  INFO 12572 --- [contratistas-csv] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-03-03T13:29:48.595-05:00  INFO 12572 --- [contratistas-csv] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-03T13:29:48.595-05:00  INFO 12572 --- [contratistas-csv] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 606 ms
+2026-03-03T13:29:48.833-05:00  INFO 12572 --- [contratistas-csv] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-03-03T13:29:48.855-05:00  INFO 12572 --- [contratistas-csv] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2026-03-03T13:29:48.859-05:00  INFO 12572 --- [contratistas-csv] [restartedMain] c.c.c.ContratistasCsvApplication         : Started ContratistasCsvApplication in 1.183 seconds (process running for 1.627)
+2026-03-03T13:29:48.861-05:00  INFO 12572 --- [contratistas-csv] [restartedMain] c.c.contratistascsv.runner.Proceso       : Inicio Proceso de generación de contratistas
+2026-03-03T13:29:48.861-05:00  INFO 12572 --- [contratistas-csv] [restartedMain] c.c.c.servicios.UsuarioService           : Consulta de endpoint remoto iniciado: https://jsonplaceholder.typicodes
+2026-03-03T13:29:49.006-05:00  WARN 12572 --- [contratistas-csv] [restartedMain] c.c.c.servicios.UsuarioService           : No es posible consumir el endpoint remoto. Se usará fallback local. Motivo: I/O error on GET request for "https://jsonplaceholder.typicodes": jsonplaceholder.typicodes
+2026-03-03T13:29:49.007-05:00 ERROR 12572 --- [contratistas-csv] [restartedMain] c.c.contratistascsv.runner.Proceso       : Proceso finalizado con error: model\Contratistas.json
+
+java.nio.file.NoSuchFileException: model\Contratistas.json
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[na:na]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[na:na]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[na:na]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234) ~[na:na]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379) ~[na:na]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:431) ~[na:na]
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3268) ~[na:na]
+	at java.base/java.nio.file.Files.readString(Files.java:3346) ~[na:na]
+	at java.base/java.nio.file.Files.readString(Files.java:3305) ~[na:na]
+	at com.contratistas.contratistascsv.servicios.UsuarioService.getUsuarios(UsuarioService.java:63) ~[classes/:na]
+	at com.contratistas.contratistascsv.runner.Proceso.run(Proceso.java:35) ~[classes/:na]
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:790) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:83) ~[spring-core-6.1.6.jar:6.1.6]
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) ~[spring-core-6.1.6.jar:6.1.6]
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:88) ~[spring-core-6.1.6.jar:6.1.6]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:798) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:789) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:774) ~[spring-boot-3.2.5.jar:3.2.5]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[na:na]
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[na:na]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:774) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:341) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.5.jar:3.2.5]
+	at com.contratistas.contratistascsv.ContratistasCsvApplication.main(ContratistasCsvApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.5.jar:3.2.5]
+
+2026-03-03T13:43:14.112-05:00  INFO 19944 --- [contratistas-csv] [restartedMain] c.c.c.ContratistasCsvApplication         : Starting ContratistasCsvApplication using Java 21.0.6 with PID 19944 (C:\Users\palez\Documents\GitHub\Ejercicio-Practico-Assertiva\Contratistas\contratistas-csv\target\classes started by palez in C:\Users\palez\Documents\GitHub\Ejercicio-Practico-Assertiva\Contratistas\contratistas-csv)
+2026-03-03T13:43:14.114-05:00  INFO 19944 --- [contratistas-csv] [restartedMain] c.c.c.ContratistasCsvApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-03-03T13:43:14.151-05:00  INFO 19944 --- [contratistas-csv] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-03T13:43:14.152-05:00  INFO 19944 --- [contratistas-csv] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-03T13:43:14.733-05:00  INFO 19944 --- [contratistas-csv] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-03-03T13:43:14.741-05:00  INFO 19944 --- [contratistas-csv] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-03T13:43:14.741-05:00  INFO 19944 --- [contratistas-csv] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-03-03T13:43:14.771-05:00  INFO 19944 --- [contratistas-csv] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-03T13:43:14.771-05:00  INFO 19944 --- [contratistas-csv] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 619 ms
+2026-03-03T13:43:15.005-05:00  INFO 19944 --- [contratistas-csv] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-03-03T13:43:15.029-05:00  INFO 19944 --- [contratistas-csv] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2026-03-03T13:43:15.034-05:00  INFO 19944 --- [contratistas-csv] [restartedMain] c.c.c.ContratistasCsvApplication         : Started ContratistasCsvApplication in 1.194 seconds (process running for 1.664)
+2026-03-03T13:43:15.036-05:00  INFO 19944 --- [contratistas-csv] [restartedMain] c.c.contratistascsv.runner.Proceso       : Inicio Proceso de generación de contratistas
+2026-03-03T13:43:15.036-05:00  INFO 19944 --- [contratistas-csv] [restartedMain] c.c.c.servicios.UsuarioService           : Consulta de endpoint remoto iniciado: https://jsonplaceholder.typicode.com/users
+2026-03-03T13:43:15.583-05:00  INFO 19944 --- [contratistas-csv] [restartedMain] c.c.contratistascsv.runner.Proceso       : Total de registro obtenidos desde el endpoint: 10
+2026-03-03T13:43:15.585-05:00  INFO 19944 --- [contratistas-csv] [restartedMain] c.c.contratistascsv.runner.Proceso       : Total de registros procesados correctamente: 10
+2026-03-03T13:43:15.586-05:00 ERROR 19944 --- [contratistas-csv] [restartedMain] c.c.contratistascsv.runner.Proceso       : Proceso finalizado con error: resultado\Contratistas.csv: El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso
+
+java.nio.file.FileSystemException: resultado\Contratistas.csv: El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[na:na]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[na:na]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[na:na]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234) ~[na:na]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482) ~[na:na]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:227) ~[na:na]
+	at java.base/java.nio.file.Files.newBufferedWriter(Files.java:2988) ~[na:na]
+	at java.base/java.nio.file.Files.newBufferedWriter(Files.java:3036) ~[na:na]
+	at com.contratistas.contratistascsv.servicios.ExportCSV.export(ExportCSV.java:22) ~[classes/:na]
+	at com.contratistas.contratistascsv.runner.Proceso.run(Proceso.java:40) ~[classes/:na]
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:790) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:83) ~[spring-core-6.1.6.jar:6.1.6]
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) ~[spring-core-6.1.6.jar:6.1.6]
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:88) ~[spring-core-6.1.6.jar:6.1.6]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:798) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:789) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:774) ~[spring-boot-3.2.5.jar:3.2.5]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[na:na]
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[na:na]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:774) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:341) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.5.jar:3.2.5]
+	at com.contratistas.contratistascsv.ContratistasCsvApplication.main(ContratistasCsvApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.5.jar:3.2.5]
+
+2026-03-03T13:43:32.483-05:00  INFO 25432 --- [contratistas-csv] [restartedMain] c.c.c.ContratistasCsvApplication         : Starting ContratistasCsvApplication using Java 21.0.6 with PID 25432 (C:\Users\palez\Documents\GitHub\Ejercicio-Practico-Assertiva\Contratistas\contratistas-csv\target\classes started by palez in C:\Users\palez\Documents\GitHub\Ejercicio-Practico-Assertiva\Contratistas\contratistas-csv)
+2026-03-03T13:43:32.484-05:00  INFO 25432 --- [contratistas-csv] [restartedMain] c.c.c.ContratistasCsvApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-03-03T13:43:32.518-05:00  INFO 25432 --- [contratistas-csv] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-03T13:43:32.518-05:00  INFO 25432 --- [contratistas-csv] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-03T13:43:33.084-05:00  INFO 25432 --- [contratistas-csv] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-03-03T13:43:33.091-05:00  INFO 25432 --- [contratistas-csv] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-03T13:43:33.091-05:00  INFO 25432 --- [contratistas-csv] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-03-03T13:43:33.120-05:00  INFO 25432 --- [contratistas-csv] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-03T13:43:33.121-05:00  INFO 25432 --- [contratistas-csv] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 601 ms
+2026-03-03T13:43:33.360-05:00  INFO 25432 --- [contratistas-csv] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-03-03T13:43:33.382-05:00  INFO 25432 --- [contratistas-csv] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2026-03-03T13:43:33.387-05:00  INFO 25432 --- [contratistas-csv] [restartedMain] c.c.c.ContratistasCsvApplication         : Started ContratistasCsvApplication in 1.192 seconds (process running for 1.611)
+2026-03-03T13:43:33.388-05:00  INFO 25432 --- [contratistas-csv] [restartedMain] c.c.contratistascsv.runner.Proceso       : Inicio Proceso de generación de contratistas
+2026-03-03T13:43:33.389-05:00  INFO 25432 --- [contratistas-csv] [restartedMain] c.c.c.servicios.UsuarioService           : Consulta de endpoint remoto iniciado: https://jsonplaceholder.typicode.com/users
+2026-03-03T13:43:33.828-05:00  INFO 25432 --- [contratistas-csv] [restartedMain] c.c.contratistascsv.runner.Proceso       : Total de registro obtenidos desde el endpoint: 10
+2026-03-03T13:43:33.830-05:00  INFO 25432 --- [contratistas-csv] [restartedMain] c.c.contratistascsv.runner.Proceso       : Total de registros procesados correctamente: 10
+2026-03-03T13:43:33.832-05:00  INFO 25432 --- [contratistas-csv] [restartedMain] c.c.contratistascsv.runner.Proceso       : Confirmación de generacion de archivo CSV: resultado/Contratistas.csv
+2026-03-03T13:43:33.832-05:00  INFO 25432 --- [contratistas-csv] [restartedMain] c.c.contratistascsv.runner.Proceso       : Proceso Finalizado correctamente
