@@ -60,7 +60,7 @@ public class UsuarioService {
             log.warn("No es posible consumir el endpoint remoto. Se usará fallback local. Motivo: {}",
                     ex.getMessage());
 
-            String json = Files.readString(Path.of(appProperties.Json()));
+            String json = Files.readString(Path.of(appProperties.fallbackJson()));
 
             return objectMapper.readValue(
                     json,

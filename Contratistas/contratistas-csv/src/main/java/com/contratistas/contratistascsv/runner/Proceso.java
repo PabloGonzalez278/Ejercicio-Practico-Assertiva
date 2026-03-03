@@ -34,11 +34,11 @@ public class Proceso implements CommandLineRunner {
         try {
             List<Contratistas> usuarios = usuarioService.getUsuarios();
             log.info("Total de registro obtenidos desde el endpoint: {}", usuarios.size());
-            List<CSVContratistas> filas = empresaTransformer.transform(usuarios,appProperties.dominio());
+            List<CSVContratistas> filas = empresaTransformer.transform(usuarios,appProperties.domain());
             log.info("Total de registros procesados correctamente: {}", filas.size());
 
-           exportCSV.export(filas, Path.of(appProperties.archivoCSV()));
-           log.info("Confirmación de generacion de archivo CSV: {}", appProperties.archivoCSV());
+           exportCSV.export(filas, Path.of(appProperties.outputCsv()));
+           log.info("Confirmación de generacion de archivo CSV: {}", appProperties.outputCsv());
            log.info("Proceso Finalizado correctamente");
         }catch (Exception ex){
             log.error("Proceso finalizado con error: {}", ex.getMessage(),ex);

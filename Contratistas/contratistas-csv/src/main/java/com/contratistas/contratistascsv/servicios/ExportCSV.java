@@ -18,16 +18,22 @@ public class ExportCSV {
             if(outputPath.getParent()!= null){
                 Files.createDirectories(outputPath.getParent());
             }
-            try (BufferedWriter writer = Files.newBufferedWriter(outputPath)){
-            writer.write("Nombre Completo, Telefono,Correo Electronico,Empresa,Ciudad,Correo Corportativo generado");
-            writer.newLine();
-            for(CSVContratistas fila : filas){
-                    writer.write(csvfila(fila.nombre())+ ","
-                            + csvfila(fila.telefono())+ ","
-                            + csvfila(fila.email())
-                            + csvfila(fila.empresa())+ ","
-                            + csvfila(fila.ciudad())+ ","
-                            + csvfila(fila.email_Corporativo()));
+
+            try (BufferedWriter writer = Files.newBufferedWriter(outputPath)) {
+
+                writer.write("Nombre Completo,Telefono,Correo Electronico,Empresa,Ciudad,Correo Corporativo generado");
+                writer.newLine();
+
+                for (CSVContratistas fila : filas) {
+
+                    writer.write(
+                            csvfila(fila.nombre()) + "," +
+                                    csvfila(fila.telefono()) + "," +
+                                    csvfila(fila.correo()) + "," +
+                                    csvfila(fila.empresa()) + "," +
+                                    csvfila(fila.ciudad()) + "," +
+                                    csvfila(fila.correoCorporativo())
+                    );
                     writer.newLine();
                 }
             }
